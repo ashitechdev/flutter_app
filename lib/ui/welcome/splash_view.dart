@@ -59,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.white70,
       body: Stack(
         children: [
           Row(
@@ -70,7 +70,7 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Text(
                   'The Aesthetic Shop',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontWeight: FontWeight.w600,
                     fontSize: 23,
                   ),
@@ -96,7 +96,7 @@ class _SplashScreenState extends State<SplashScreen>
                       spreadRadius: 10,
                     ),
                   ],
-                  color: Colors.white,
+                  color: Colors.black,
                   borderRadius: BorderRadius.circular(70),
                 ),
                 child: Center(
